@@ -1,0 +1,249 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #f6f6f6cf;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.containor {
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+::selection {
+    background-color: #ff3e66;
+    color: #eef1f6;
+}
+
+:root {
+    --colorMain--blue: #0e1133;
+    --colorMain--pink: #ff3e66;
+    --colorMain--tBlue: #2a6df5;
+    --colorMain--gray: #eef1f6;
+}
+
+* {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+    background-color: var(--colorMain--gray);
+}
+
+header .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 85px;
+}
+
+header .content .logo {
+    height: 85px;
+    align-items: center;
+    display: flex;
+}
+
+header .content .nav ul {
+    display: flex;
+}
+
+header .content .nav ul li {
+    padding: 10px;
+    font-size: 20px;
+    margin: 8px;
+}
+
+header .content .nav li a {
+    color: var(--colorMain--blue);
+    font-weight: 600;
+    position: relative;
+}
+
+header .content .nav li:not(:last-child) a:hover::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    border-radius: 30px;
+    background-color: var(--colorMain--blue);
+    animation-name: move;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+}
+
+@keyframes move {
+    0% {
+        width: 0%;
+    }
+    50% {
+        width: 50%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+header .content .nav li .special::after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background-color: var(--colorMain--pink);
+    border-radius: 30px;
+}
+
+header .content .getStart a {
+    font-size: 21px;
+    color: #eef1f6;
+    background-color: var(--colorMain--pink);
+    border-radius: 30px;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+header .content .getStart a:hover {
+    box-shadow: 0px 0px 5px var(--colorMain--pink);
+}
+
+
+/*start----------middle */
+
+
+/*start----------middle */
+
+
+/*start----------middle */
+
+
+/*start----------middle */
+
+
+/*start----------middle */
+
+
+/*start----------middle */
+
+
+/*start----------middle */
+
+
+/*start----------middle */
+
+
+/*start----------middle */
+
+header .middle {
+    width: 100%;
+    display: flex;
+    padding: 4rem 4rem 0rem;
+}
+
+header .middle .tBox {
+    width: 55%;
+    line-height: 1;
+}
+
+header .middle .tBox h3 {
+    font-size: 65px;
+    font-weight: 400;
+    margin: 20px auto 30px;
+}
+
+header .middle .tBox span {
+    color: var(--colorMain--blue);
+    font-weight: 700;
+}
+
+header .middle .tBox p {
+    color: var(--colorMain--blue);
+    font-weight: 600;
+}
+
+header .middle .tBox h4 {
+    font-weight: 500;
+    color: gray;
+    background-color: #ffffff;
+    height: 60px;
+    width: 60%;
+    padding: 15px 10px;
+    border-radius: 30px;
+    border-left: 5px solid var(--colorMain--pink);
+    transition: 0.4s;
+    font-size: 20px;
+}
+
+header .middle .tBox h4:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 25px rgb(0 0 0 / 8%);
+    color: var(--colorMain--blue);
+    transform: scale(1.1);
+}
+
+header .middle .tBox h4:focus {
+    outline: transparent;
+    color: var(--colorMain--blue);
+}
+
+header .middle .tBox .box-image {
+    position: relative;
+    width: 50%;
+    margin-top: 10px;
+}
+
+header .middle .tBox .box-image img {
+    border-radius: 50%;
+    height: 40px;
+    border: 2px solid white;
+    top: 20px;
+}
+
+header .middle .tBox .box-image .one {
+    position: absolute;
+}
+
+header .middle .tBox .box-image .two {
+    position: absolute;
+    left: 30px;
+}
+
+header .middle .tBox .box-image .thr {
+    position: absolute;
+    left: 65px;
+}
+
+header .middle .tBox .box-image .fou {
+    position: absolute;
+    left: 100px;
+}
+
+header .middle .tBox strong {
+    font-weight: 400;
+}
+
+header .middle .imgBox {
+    max-width: 45%;
+}
+
+header .middle .imgBox img {
+    height: 475px;
+    max-width: 100%;
+}

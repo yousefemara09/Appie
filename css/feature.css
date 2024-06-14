@@ -1,0 +1,195 @@
+:root {
+    --colorMain--blue: #0e1133;
+    --colorMain--pink: #ff3e66;
+    --colorMain--tBlue: #2a6df5;
+    --colorMain--gray: #eef1f6;
+}
+
+.feature {
+    padding-top: 75px;
+    height: 250vh;
+}
+
+.feature .content {
+    padding: 50px;
+}
+
+.feature .content h3 {
+    color: var(--colorMain--blue);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.feature .content .line {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    padding-bottom: 35px;
+}
+
+.feature .content .line span {
+    line-height: 3;
+    color: var(--colorMain--blue);
+}
+
+.feature .content .line a {
+    background-color: white;
+    padding: 15px;
+    border-radius: 30px;
+    outline: 2px solid var(--colorMain--blue);
+    color: var(--colorMain--blue);
+    box-shadow: 0 16px 25px rgb(0 0 0 / 22%);
+}
+
+.feature .content .box-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    grid-template-rows: 365px;
+    gap: 30px 30px;
+    padding-top: 35px;
+}
+
+.feature .content .box-card .card {
+    border: 0.5px solid rgba(152, 154, 150, 0.4);
+    box-shadow: 0 10px 25px rgb(0 0 0 / 5%);
+    border-radius: 15px;
+    padding: 50px;
+}
+
+.feature .content .box-card .card i {
+    color: white;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 50%;
+}
+
+.feature .content .box-card .card .fa-search {
+    background-color: #32c36a;
+}
+
+.feature .content .box-card .card .fa-bolt {
+    background-color: orange;
+}
+
+.feature .content .box-card .card .fa-bell {
+    background-color: var(--colorMain--tBlue);
+}
+
+.feature .content .box-card .card .fa-lock {
+    background-color: orange;
+}
+
+.feature .content .box-card .card .fa-home {
+    background-color: var(--colorMain--tBlue);
+}
+
+.feature .content .box-card .card .fa-bars {
+    background-color: #32c36a;
+}
+
+.feature .content .box-card .card h4 {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--colorMain--blue);
+    margin: 15px auto;
+}
+
+.feature .content .box-card .card p {
+    color: #666;
+    margin: 30px auto;
+}
+
+.feature .content .box-card .card a {
+    background-color: var(--colorMain--pink);
+    color: white;
+    padding: 15px;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.feature .content .box-card .card a:hover {
+    box-shadow: 0 16px 25px rgb(0 0 0 / 22%);
+}
+
+
+/* Starting Marketing */
+
+
+/* Starting Marketing */
+
+
+/* Starting Marketing */
+
+
+/* Starting Marketing */
+
+
+/* Starting Marketing */
+
+
+/* Starting Marketing */
+
+
+/* Starting Marketing */
+
+
+/* Starting Marketing */
+
+.feature .marketing {
+    padding: 50px;
+    background-color: #e7ebf0;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-direction: row;
+}
+
+.feature .marketing .image {
+    position: relative;
+    top: 25%;
+}
+
+.feature .marketing .text h3 {
+    color: var(--colorMain--pink);
+}
+
+.feature .marketing .text h2 {
+    color: var(--colorMain--blue);
+    font-size: 30px;
+}
+
+.feature .marketing .text span {
+    color: #666;
+}
+
+.feature .marketing .text .two_card {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.feature .marketing .text .two_card .card {
+    margin-top: 25px;
+    width: 45%;
+}
+
+.feature .marketing .text .two_card .card i {
+    color: #32c36a;
+    font-size: 30px;
+}
+
+.feature .marketing .text .two_card .card span {
+    color: var(--colorMain--blue);
+    margin-left: 10px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.feature .marketing .text .two_card .card p {
+    color: #666;
+}

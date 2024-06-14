@@ -1,0 +1,83 @@
+:root {
+    --colorMain--blue: #0e1133;
+    --colorMain--pink: #ff3e66;
+    --colorMain--tBlue: #2a6df5;
+    --colorMain--gray: #eef1f6;
+}
+
+.down {
+    height: 95vh;
+    background-color: #f0f1f7;
+}
+
+.down .containor {
+    padding: 50px 120px 0px 120px;
+}
+
+.down .containor .download {
+    margin-top: 100px;
+}
+
+.down .containor .download span {
+    font-size: 40px;
+    color: var(--colorMain--pink);
+    font-weight: 600;
+}
+
+.down .containor .download h2 {
+    font-size: 40px;
+    width: 50%;
+}
+
+.down .containor .download p {
+    width: 50%;
+}
+
+.down .containor .download .btn {
+    display: flex;
+    margin-top: 40PX;
+    cursor: pointer;
+}
+
+.down .containor .download .btn .ando {
+    display: flex;
+    align-items: center;
+    background-color: var(--colorMain--blue);
+    color: white;
+    padding: 15px 25px;
+    border-radius: 25px;
+}
+
+.down .containor .download .btn .ando i {
+    font-size: 40px;
+}
+
+.down .containor .download .btn .ando h5 {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.down .containor .download .btn .ios {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    padding: 15px 25px;
+    border-radius: 25px;
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 11px 20px 45px rgb(0 0 0 / 10%);
+    transition: 0.5s;
+}
+
+.down .containor .download .btn .ios:hover {
+    box-shadow: 11px 20px 45px rgb(0 0 0 / 17%);
+}
+
+.down .containor .download .btn .ios i {
+    font-size: 40px;
+}
+
+.down .containor .download .btn .ios h5 {
+    font-size: 20px;
+    margin-left: 20px;
+}
